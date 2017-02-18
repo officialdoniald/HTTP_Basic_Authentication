@@ -4,6 +4,11 @@ With this NuGet package you can log in with HTTP Basic Authentication with Webre
 
 Usage:
 
+1. You have to modify the project properties. So go to the root project(portable) and click double on the Properties.
+2. Go to the Library and click on the Change button.
+3. Uncheck the Silverlight and change the .NET Framework 4.5 to .NET Framework 4.5.1.
+
+4.
 //first step: create an object
 HTTPBasicAuth httpBasicImplement = new HTTPBasicAuth();
 
